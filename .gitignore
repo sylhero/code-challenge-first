@@ -1,0 +1,19 @@
+# general files #
+#############################
+node_modules
+.DS_Store
+
+# build files #
+#############################
+dist
+
+# unit test generated files #
+#############################
+coverage
+
+# Sonarqube generated files #
+#############################
+*.sonar
+sonar-scanner-*
+.scannerwork
+

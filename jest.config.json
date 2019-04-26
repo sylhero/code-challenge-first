@@ -1,0 +1,24 @@
+{
+    "roots": [
+        "<rootDir>/src"
+    ],
+    "transform": {
+        "^.+\\.tsx?$": "ts-jest"
+    },
+     "coveragePathIgnorePatterns" : [
+        "<rootDir>/src/.+/__tests__/.+\\.unit\\.ts(x?)",
+        "<rootDir>/src/Server.ts",
+        "<rootDir>/src/AppPlugins.ts",
+        "<rootDir>/src/ServerPlugins.ts"
+    ],
+    "testEnvironment": "node",
+    "reporters": [ "default", "jest-junit" ],
+    "testRegex": "(/__tests__/.*\\.unit)\\.ts$",
+    "moduleFileExtensions": [
+        "ts",
+        "json",
+        "node",
+        "js",
+        "jsx"
+    ]
+ }

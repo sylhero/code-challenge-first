@@ -1,0 +1,72 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint-config-airbnb"
+    ],
+    "jsRules": {},
+    "rules": {
+        "max-line-length": {
+            "options": [120]
+        },
+        "new-parens": true,
+        "no-arg": true,
+        "prefer-array-literal": false,
+        "no-bitwise": true,
+        "no-conditional-assignment": true,
+        "no-consecutive-blank-lines": true,
+        "no-unused-variable": true,
+        "ordered-imports": false,
+        "no-console": false,
+        "align": [true, "statements"],
+        "typedef": [
+            true,
+            "call-signature",
+            "parameter",
+            "member-variable-declaration",
+            "arrow-call-signature",
+            "object-destructuring"
+        ],
+        "trailing-comma": [
+            true,
+            "never"
+        ],
+        "import-name": false,
+        "variable-name": [
+            true,
+            "ban-keywords",
+            "check-format",
+            "allow-pascal-case"],
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "one-line": [
+            true,
+            "check-open-brace",
+            "check-whitespace"
+        ],
+        "object-literal-sort-keys": [
+            false
+        ],
+        "no-string-literal": true,
+        "triple-equals": [
+            true
+        ],
+        "ter-indent": [
+            true,
+            4,
+            { "SwitchCase": true }
+        ],
+        "origin-ordered-imports": [
+            true,
+            "one-blank-line"
+        ]
+    },
+    "rulesDirectory": [
+        "node_modules/tslint-origin-ordered-imports-rule/dist"
+    ]
+}
